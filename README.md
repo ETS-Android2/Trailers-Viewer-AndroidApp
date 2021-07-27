@@ -1,6 +1,7 @@
 # Trailers-Viewer-AndroidApp
 
 Android application for watching movie trailers by using Firebase and Youtube API.
+Based on the Netflix UI by using horizontal and vertical containers.
 
 ## Description
 
