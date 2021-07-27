@@ -1,0 +1,53 @@
+package com.example.movieapp21;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+
+public class RoundAdapter extends RecyclerView.Adapter<RoundAdapter.ViewHolder> {
+    ArrayList<MainModel> mainModels;
+    Context context;
+
+    public RoundAdapter(Context context, ArrayList<MainModel> mainModels){
+        this.context=context;
+        this.mainModels=mainModels;
+    }
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.round_item, parent, false);
+        return new ViewHolder(view);
+    }
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position){
+        holder.imageView.setImageResource(getImageId(context, mainModels.get(position).getLangLogo()));
+        holder.imageView.setImageResource(getImageId(context, mainModels.get(position).getLangLogo()));
+        holder.textView.setText(mainModels.get(position).getLangName());
+    }
+
+    public int getItemCount(){
+        return mainModels.size();
+    }
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        ImageView imageView;
+        TextView textView;
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+
+            imageView=itemView.findViewById(R.id.image_round_view);
+            textView=itemView.findViewById(R.id.text_view);
+        }
+    }
+    public static int getImageId(Context context, String imageName) {
+        return context.getResources().getIdentifier("drawable/" + imageName, null, context.getPackageName());
+    }
+
+}

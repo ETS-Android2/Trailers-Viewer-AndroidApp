@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265592656010",
+    "firebase_url": "https://movieapp21-d552a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "movieapp21-d552a",
+    "storage_bucket": "movieapp21-d552a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265592656010:android:7d75fb87f69aee2f47dd73",
+        "android_client_info": {
+          "package_name": "com.example.movieapp21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265592656010-2lsm3u0rtd2e5os3gp8r87sfn4m512ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPyk6Nm5AzLSk5bzxVsGqA20q-xx_CnE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265592656010-2lsm3u0rtd2e5os3gp8r87sfn4m512ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
