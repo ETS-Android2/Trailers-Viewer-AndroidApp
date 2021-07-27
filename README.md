@@ -36,3 +36,4 @@ Erges Mema
 
 * 0.1
     * Initial Release (may contain bugs or errors)
+    * For learning purposes, not ready for production.
