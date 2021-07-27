@@ -19,11 +19,11 @@ Note: Change the Youtube API and connect to Firebase.
 
 ### Sample Output
 
-![Image 1](./blob/main/sample-pics/1.JPG =250x)
+![Image1](https://github.com/ergesmema/Trailers-Viewer-AndroidApp/blob/main/sample-pics/1.JPG)
 
-![Image 2](./blob/main/sample-pics/1.JPG =250x)
+![Image2](https://github.com/ergesmema/Trailers-Viewer-AndroidApp/blob/main/sample-pics/2.JPG)
 
-![Image 3](./blob/main/sample-pics/1.JPG =250x)
+![Image3](https://github.com/ergesmema/Trailers-Viewer-AndroidApp/blob/main/sample-pics/3.JPG)
 
 ## Authors
 
