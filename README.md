@@ -19,9 +19,11 @@ Note: Change the Youtube API and connect to Firebase.
 
 ### Sample Output
 
-![](./sample-pics/1.JPG =250x)
-![](./sample-pics/2.JPG =250x)
-![](./sample-pics/3.JPG =250x)
+![Image 1](./blob/main/sample-pics/1.JPG =250x)
+
+![Image 2](./blob/main/sample-pics/1.JPG =250x)
+
+![Image 3](./blob/main/sample-pics/1.JPG =250x)
 
 ## Authors
 
