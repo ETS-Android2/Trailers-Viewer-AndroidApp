@@ -19,9 +19,9 @@ Note: Change the Youtube API and connect to Firebase.
 
 ### Sample Output
 
-<img src="sample-pics/1.jpg" alt="first-iamge" width="200"/>
-<img src="sample-pics/2.jpg" alt="second-iamge" width="200"/>
-<img src="sample-pics/3.jpg" alt="third-iamge" width="200"/>
+![](./sample-pics/1.JPG =250x)
+![](./sample-pics/2.JPG =250x)
+![](./sample-pics/3.JPG =250x)
 
 ## Authors
 
