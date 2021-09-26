@@ -33,7 +33,7 @@ import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 
 
 public class YoutubeFragment extends Fragment {
-    private static final String API_KEY = "AIzaSyCBqjkyFf4LKj6Si5lsYdBLMy2bBSaqkfg";
+    private static final String API_KEY = "";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
